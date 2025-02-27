@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+    <link rel="stylesheet" href="/Projects/js/form validation/index3.css">
+</head>
+
+<body>
+    <div id="form">
+        <form id="registrationForm">
+            <h1 id="heading">Registration Form</h1>
+
+            <label>Name: <input type="text" class="input" id="name" required placeholder="Enter your name"></label><br>
+
+            <label>Contact No: <input type="number" class="input" id="contact" required
+                    placeholder="Enter your Contact no."></label><br>
+
+            <label>Email: <input type="email" class="email" id="email" required
+                    placeholder="example@mail.com"></label><br>
+
+            <select id="country" name="country" required>
+                <option value="">Select a Country</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+            </select><br><br>
+
+            <label>Gender:
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </label>
+            <br><br>
+
+            <label>Password: <input type="password" class="input" id="password" required></label><br>
+
+            <label>Confirm Password: <input type="password" class="input" id="confirmPassword" required></label><br>
+
+            <label>
+                <input type="checkbox" id="rememberMe"> Remember me
+            </label><br>
+
+            <button type="submit" id="submit">Submit</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+    </div>
+
+    <script src="/Projects/js/form validation/index3.css"></script>
+</body>
+
+</html>

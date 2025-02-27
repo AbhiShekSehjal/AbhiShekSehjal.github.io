@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/Projects/js/SecondToDoApp/toDoAppProject.css">
+</head>
+
+<body>
+  <div id="box" class="container-fluid">
+    <h1><span>To Do</span> App</h1>
+    <h2>
+      Click <span class="span2">Buttons</span> to manage your
+      <span class="span2">ToDos</span>
+    </h2>
+
+    <button class="btn" id="List">List</button>
+    <button class="btn" id="Add">Add</button>
+    <button class="btn" id="Delete">Delete</button>
+    <button class="btn" id="Quit">Quit</button>
+  </div>
+
+  <div id="outputbox" class="container border border-5 col-4">
+    <input type="text" id="taskInput" class="form-control mt-2" placeholder="Enter a task" />
+
+    <h2 id="output" class="mt-3"></h2>
+
+    <ul id="taskList" class="mt-3 list-group"></ul>
+  </div>
+
+  <script src="/Projects/js/SecondToDoApp/toDoAppProject.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

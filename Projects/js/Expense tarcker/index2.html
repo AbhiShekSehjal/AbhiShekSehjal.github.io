@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/Projects/js/Expense tarcker/index2.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 id="heading">Expense <span>Tracker</span></h1>
+
+    <div id="summery">
+      <h3>Your Balance</h3>
+      <p id="balance">$0.00</p>
+
+      <h3>Income</h3>
+      <p id="income">$0.00</p>
+
+      <h3>Expense</h3>
+      <p id="Expense">$0.00</p>
+    </div>
+
+    <div class="transaction-form">
+      <h1>Transactions</h1>
+      <input class="input" type="text" name="item-name" id="item-name" placeholder="Enter the Name of Item" required />
+
+      <input class="input" type="number" name="item-cost" id="item-cost" placeholder="Enter the Cost of Item"
+        required />
+      <input class="input" type="number" name="Income" id="Income" placeholder="Enter Your Income" required />
+
+      <button type="submit" id="btn1">Add Transaction</button>
+    </div>
+  </div>
+
+  <div id="output">
+    <h1 class="h2">Transaction List:</h1>
+
+    <h2 class="left-div"></h2>
+
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="/Projects/js/Expense tarcker/index2.js"> </script>
+</body>
+
+</html>

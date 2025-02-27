@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Times New Roman", Times, serif;
+    /* background-color:rgb(192, 133, 133); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    border-radius: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+
+  #heading {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  span {
+    text-shadow: 3px 3px 3px black;
+  }
+
+  #summery {
+    /* border: 2px solid ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    margin: 10px;
+    font-size: 20px;
+    gap: 6px;
+  }
+
+  .transaction-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .transaction-form h1 {
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .transaction-form .input {
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    border-radius: 6px;
+  }
+
+  #btn1 {
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+
+  #btn1:hover {
+    background: linear-gradient(to right, #b9523d, #ff003c, #ff0062);
+    transform: scale(1.1);
+  }
+
+  #output {
+    border: 2px solid;
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

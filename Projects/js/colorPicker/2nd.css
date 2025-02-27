@@ -1,0 +1,65 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(61, 61, 61);
+  }
+
+  h1 {
+    font-weight: 50px;
+    font-size: 35px;
+    color: white;
+  }
+
+  #underbox {
+    border: 1px solid white;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  #copyBtn,
+  #colorGenerator {
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(253, 242, 174);
+    transition: 0.4s ease-in;
+    font-size: 16px;
+    font-weight: 500;
+    /* box-shadow: 1px 1px 1px white; */
+  }
+  #copyBtn,
+  #colorGenerator:hover {
+    background-color: white;
+  }
+
+  #copyBtn,
+  #colorGenerator:active {
+    transform: scale(0.9);
+  }
+
+  .copiedBtn {
+    height: 15px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgb(3, 169, 3);
+    color: white;
+    transition: 0.2s ease-in;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 8px;
+    position: absolute;
+    top: 98px;
+  }

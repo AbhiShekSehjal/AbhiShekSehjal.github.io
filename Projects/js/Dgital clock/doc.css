@@ -1,0 +1,36 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #545454, #0088ff ,rgb(107, 107, 255));
+    color: white;
+}
+
+.clock-container {
+    /* text-align: center; */
+    height: 50px;
+    padding: 20px;
+    width: 300px;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    background: rgba(255, 47, 47, 0.3);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ccc5e0;
+}

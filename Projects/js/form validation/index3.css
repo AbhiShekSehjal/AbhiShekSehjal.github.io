@@ -1,0 +1,67 @@
+* {
+    scrollbar-width: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-image: url("/Projects/js/form validation/pexels.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    /* border-radius: 50px 0; */
+    flex-direction: column;
+    margin: 35px auto;
+    padding: 17px;
+    height: 630px;
+    width: 459px;
+    color: white;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+}
+
+.input,
+.email {
+    height: 30px;
+    width: 400px;
+    display: flex;
+    align-items: baseline;
+    color: black;
+}
+
+#submit {
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+    margin-top: 14px;
+}
+
+#reset {
+    height: 30px;
+    width: 60px;
+    margin-left: 242px;
+}
+
+#heading {
+    color: #fff;
+    text-shadow: 0 0 5px #000dff,
+        0 0 8px #000dff,
+        0 0 8px #000dff,
+        0 0 8px #000dff,
+        0 0 8px #000dff,
+        0 0 8px #000dff;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#country {
+    height: 35px;
+    width: 132px;
+}
