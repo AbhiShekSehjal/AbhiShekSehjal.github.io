@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        scrollbar-width: none;
+    }
+
+    .calculater {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+
+<body>
+
+    <div class="calculater">
+        <input type="text" id="displayArea" readonly>
+        <br>
+
+        <div class="row">
+            <button onclick="pickValue(1)">1</button>
+            <button onclick="pickValue(2)">2</button>
+            <button onclick="pickValue(3)">3</button>
+            <button onclick="pickValue('/')">/</button>
+        </div>
+        <div class="row">
+            <button onclick="pickValue(4)">4</button>
+            <button onclick="pickValue(5)">5</button>
+            <button onclick="pickValue(6)">6</button>
+            <button onclick="pickValue('*')">*</button>
+        </div>
+        <div class="row">
+            <button onclick="pickValue(7)">7</button>
+            <button onclick="pickValue(8)">8</button>
+            <button onclick="pickValue(9)">9</button>
+            <button onclick="pickValue('-')">-</button>
+        </div>
+        <div class="row">
+            <button onclick="clearInput()">c</button>
+            <button onclick="pickValue(0)">0</button>
+            <button onclick="pickValue('.')">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let currentValue = "";
+
+    function pickValue(val) {
+        currentValue += val;
+        document.getElementById("displayArea").value = currentValue;
+    }
+
+    function clearInput() {
+        currentValue = "";
+        document.getElementById("displayArea").value = "";
+    }
+
+    function calculate() {
+        currentValue = eval(currentValue);
+        document.getElementById("displayArea").value = currentValue;
+    }
+
+</script>
+
+</html>
